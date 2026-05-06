@@ -1,6 +1,8 @@
 header{
     background:#4287ff;
-    text-align:center;
+   
+    border-radius: 5px;
+    text-align: center;
 }
 
 header h1{
@@ -59,6 +61,52 @@ footer a{
     padding: 10px;
 }
 
+.KNOPKA:hover{
+    color: #8b00ff;
+    background-color: rgb(255, 255, 255);
+    transition-duration: 900ms;
+}
+
 .splav{
     border-left:8px #ffa600 double ;
+    padding: 10px;
+}
+
+.maintxt{
+    background-color: rgb(0, 4, 255);
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-image: url('4dc7bd0b0eb6837f50b154aeb1640ce6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+aside{
+    float: right;
+    background: rgb(135, 121, 255);
+    position:relative;
+    position:fixed ;
+    right: 0;
+    top: 50%; 
+    border-radius: 8px;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    font-size: 40px;
+    width: 250px;
+    border-radius: 8px;
+    background-color: rgb(227, 137, 255);
+    margin-bottom: 10px;
+    border:3px double #3e0446;
+}
+
+button:hover{
+     background-color: rgb(238, 181, 255);
 }
